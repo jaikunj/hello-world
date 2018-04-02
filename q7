@@ -1,0 +1,1 @@
+print(','.join(sorted([ word for word in input("Enter comma seprated words : ").split(',')])))
