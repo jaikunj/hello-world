@@ -1,0 +1,2 @@
+arr = [ int(num) for num in input("Enter comma seprated numbers : ").split(',')]
+print(arr, tuple(arr))
