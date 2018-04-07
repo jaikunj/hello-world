@@ -1,0 +1,12 @@
+class strtest:
+    def __init__(self):
+        self.str_var = ''
+    def printString(self):
+        print(self.str_var.upper())
+    def getString(self,data):
+        self.str_var = data
+
+s = strtest()
+s.printString()
+s.getString('Hello')
+s.printString()
