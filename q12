@@ -1,0 +1,8 @@
+def calculate(a):
+    total = 0
+    formula = 'a+aa+aaa+aaaa'
+    for i in range(1, len(formula.split('+'))+1):
+        total += a**i
+    print(total)
+    
+calculate(int(input("Enter Number : ")))
