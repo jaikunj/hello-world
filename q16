@@ -1,0 +1,4 @@
+str = input("Enter String : ")
+uniq = set(str.split(" "))
+for word in uniq:
+    print( word,":", str.count(word) )
