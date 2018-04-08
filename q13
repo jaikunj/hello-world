@@ -1,0 +1,1 @@
+print(','.join([ str(int(num)*int(num)) for num in input('Enter numbers : ').split(',') if int(num) % 2 != 0  ]))
