@@ -1,0 +1,4 @@
+def relation( guy, girl ):
+    return True if guy == girl else False    
+    
+print(relation(input("State of guy :"), input("State of girl :")))
