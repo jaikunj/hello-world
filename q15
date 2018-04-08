@@ -1,0 +1,1 @@
+print(','.join([ binstr for binstr in input('Enter Binary Digits : ').split(',') if int(binstr,2) % 5 == 0  ]))
