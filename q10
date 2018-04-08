@@ -1,0 +1,9 @@
+letters = 0
+digits = 0
+for str in input("Enter Sentence"):
+    if str.isalpha():
+        letters+=1
+    elif str.isnumeric():
+        digits+=1
+print("LETTERS ",letters)
+print("DIGITS ",digits)
