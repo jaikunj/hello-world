@@ -1,0 +1,9 @@
+upper = 0
+lower = 0
+for str in input("Enter Sentence"):
+    if str.isupper():
+        upper+=1
+    elif str.islower():
+        lower+=1
+print("UPPER CASE ",upper)
+print("LOWER CASE ",lower)
