@@ -1,0 +1,14 @@
+class Shape:
+    def __init__(self):
+        self.area = 0
+        self.length = 0
+    def calculatearea(self):
+        area = self.length*self.length
+        return area
+
+class Square(Shape):
+    def __init__(self, l):
+        Shape.length = l
+
+sq = Square(int(input("Enter Length: ")))
+print(sq.calculatearea())
